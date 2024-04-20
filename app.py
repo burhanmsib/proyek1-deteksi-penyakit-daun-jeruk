@@ -19,7 +19,7 @@ st.markdown("<h1 style='text-align: center; color: #fff;'>Citrus Leaf Disease Cl
 
 
 # Load your model and its weights
-model = tf.keras.models.load_model('EffecientNetB3-Citrus-Disease-97.92.h5')
+model = tf.keras.models.load_model("EffecientNetB3-Citrus-Disease-97.92.h5")
 class_names = ["Blackspot Leaf","Canker Leaf","Greening Leaf","Powdery Mildew","Citrus Leafminer","Healthy Leaf"]  # List of your class names
 
 # Define the Streamlit app
